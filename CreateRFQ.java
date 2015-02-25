@@ -52,7 +52,7 @@ public class CreateRFQ extends SonnetElement {
 	/*	findElement(By.xpath("//*[@href='/mockups/tcs2014/create_rfq.asp']"))
 				.click();// create RFQ link after logging
 */
-		ds.SetFilterTo(2);
+		ds.SetFilterTo(1);
 		findElement(By.xpath("(//*[@class='tbl']//tr[3]/td[2])[1]/input"))
 				.sendKeys(ds.GetData("description"));// RFQDescription
 
