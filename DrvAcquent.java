@@ -1,4 +1,4 @@
-package Cucumber.TestScript;
+package TestScript;
 
 import org.testng.annotations.Test;
 
